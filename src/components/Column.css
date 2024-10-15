@@ -1,0 +1,40 @@
+/* src/components/Column.css */
+.column {
+    min-width: 450px;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .column h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem;
+    display: flex;
+    justify-content:space-between ;
+  }
+  .column h2 .ticketLength{
+    color: #737373;
+  }
+  .column h2 .titleRight img{
+    color: #737373;
+    width: 1.5rem;
+  }
+
+  .column .titleIcon{
+    width: 1.5rem;
+    border-radius: 50%;
+  }
+  
+  .column h2 .titleRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .column h2 .titleLeft{
+    display: flex;
+    min-width: 150px;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+  }

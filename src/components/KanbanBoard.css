@@ -1,0 +1,9 @@
+/* src/components/KanbanBoard.css */
+.kanban-board {
+  margin-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  height: calc(100vh - 100px); /* Adjust based on your header height */
+}
